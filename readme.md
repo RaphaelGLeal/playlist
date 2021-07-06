@@ -2,5 +2,5 @@
 
 # Packages
 
-pip install pygame
-pip install pygame emoji
+<p>pip install pygame<p>
+<p>pip install emoji<p>
