@@ -5,7 +5,7 @@ from time import sleep
 
 
 print("1 - Projota \n2 - Ana Vitoria \n3 - Marcelo D2 \n4 - Zeno e Henrique")
-print('*-'*20)
+print('-'*30)
 escolha = int(input('\nDigite o Numero da musica: '))
 musica = ''
 
@@ -20,16 +20,16 @@ elif escolha == 4:
 else:
     print(emoji.emojize('Opção errada! :warning: \n Digite uma opção Valida entre 1 e 4',use_aliases=True))
 
-print('*-'*20)
+print('-'*30)
 print('\nSua escolha foi {}'.format(musica))
-#print('*-'*20)
+#print('-'*20)
 
 pygame.mixer.init()
 pygame.mixer.music.load(musica)
 pygame.mixer.music.play()
 
 while pygame.mixer.music.get_busy():
-    print('*-'*20)
+    print('-'*30)
     pause = int(input('1 para pausar\n2 para play \n3 para finalizar \nOpção Desejda: '))
     if pause == 1:
         pygame.mixer.music.pause()

@@ -1,7 +1,6 @@
-Projeto Estudo Python
+<h4 align="center"> Projeto Estudo Python... </h4>
 
-
-***  Packages  **
+# Packages
 
 pip install pygame
 pip install pygame emoji
