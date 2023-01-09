@@ -18,7 +18,8 @@ elif escolha == 3:
 elif escolha == 4:
     musica = 'zeneto.mp3'
 else:
-    print(emoji.emojize('Opção errada! :warning: \n Digite uma opção Valida entre 1 e 4',use_aliases=True))
+    print(emoji.emojize('Opção errada! :warning: \n Digite uma opção Valida entre 1 e 4'))
+    #print(emoji.emojize('Opção errada! :warning: \n Digite uma opção Valida entre 1 e 4',use_aliases=True))
 
 print('-'*30)
 print('\nSua escolha foi {}'.format(musica))

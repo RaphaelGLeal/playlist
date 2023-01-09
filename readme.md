@@ -4,3 +4,6 @@
 
 <p>pip install pygame<br>
 pip install emoji</p>
+
+# BUG
+- Revisar uso do emoji
